@@ -1,14 +1,14 @@
-License Plate Recognition system written for RSM class at Science University of Wrocław
+# License Plate Recognition
 
-Authors:
-Lin Lu
-Tomasz Bartnik
-Maciej Gąciarz
+License plate recognition using classifiers trained by 20x20 pixels large set of letter and numbers images. 
+
+License plates are found in images using OpenCV.
+
+Classifiers training result is saved with pickle as a .pkl file inside output, then used in main.py to recognize characters on
+a previously found plate.
 
 
-PROJECT INFO
-
-1. Required libraries
+## Required libraries
 
 Python v3.5.2
 
@@ -22,7 +22,7 @@ scikit_image==0.14.0
 scikit_learn==0.19.1
 
 
-3. Instructions:
+## How to use
 
 - Install python 3.5.2 for you system from python main page
 
@@ -32,7 +32,7 @@ py -3.5 -m pip install -r /path/to/project/requirements.txt
 
 - Launch project in any IDE
 
-4. Folders
+## Folders
 
 Car_images - has a pictures of indian cars that contain license plates. Used in testing final results of various classifiers
 
@@ -44,7 +44,7 @@ output - contains a .pkl files that represent trained data for various classifie
         Used in main_py evaluating the pictures from car_images folder
 
 
-5. Files
+## Files
 
 char_recognition.py - contain functions that load a model from file and recognize characters on the license plate using it.
 
