@@ -1,0 +1,64 @@
+cross validation result for  4  -fold for Nearest Neighbors
+[87.25490196 93.1372549  94.11764706 98.52941176]
+mean for Nearest Neighbors is 93.25980392156863
+std for Nearest Neighbors is 4.01803831145956
+
+
+cross validation result for  4  -fold for Linear SVM
+[ 96.07843137  99.01960784  97.05882353 100.        ]
+mean for Linear SVM is 98.03921568627452
+std for Linear SVM is 1.5501361079256757
+
+
+
+cross validation result for  4  -fold for Decision Tree
+[50.98039216 50.         50.         60.29411765]
+mean for Decision Tree is 52.818627450980394
+std for Decision Tree is 4.334494897996909
+
+
+cross validation result for  4  -fold for Random Forest
+[60.78431373 75.49019608 82.35294118 72.05882353]
+mean for Random Forest is 72.671568627451
+std for Random Forest is 7.799934627926257
+
+
+cross validation result for  4  -fold for Neural Net
+[ 96.07843137  96.07843137  95.58823529 100.        ]
+mean for Neural Net is 96.93627450980392
+std for Neural Net is 1.7801273341095512
+
+
+cross validation result for  4  -fold for AdaBoost
+[14.70588235  8.82352941 10.29411765  7.35294118]
+mean for AdaBoost is 10.294117647058824
+std for AdaBoost is 2.751218666745545
+
+
+cross validation result for  4  -fold for Naive Bayes
+[91.17647059 90.19607843 92.64705882 94.11764706]
+mean for Naive Bayes is 92.03431372549021
+std for Naive Bayes is 1.485827898649772
+
+
+cross validation result for  4  -fold for QDA
+[18.62745098  8.82352941 10.29411765 19.11764706]
+mean for QDA is 14.215686274509803
+std for QDA is 4.689001585712988
+
+
+
+Wilcoxon result: 
+WilcoxonResult(statistic=0.0, pvalue=0.17971249487899976)
+working
+working
+working
+working
+Plate number according to Nearest Neighbors is LEMA46AA
+Plate number according to Linear SVM is EM446AAL
+Plate number according to Decision Tree is CKAA6AWL
+Plate number according to Random Forest is ZMAA6AAL
+Plate number according to Neural Net is EM446AAL
+Plate number according to AdaBoost is 05220245
+Plate number according to Naive Bayes is EM446AAL
+Plate number according to QDA is 3G441AB1
