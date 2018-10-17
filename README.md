@@ -70,3 +70,8 @@ plate_localization.py - separates image into regions, inverts theirs color, and 
 Returns array of suspected plates, then checks that array for plates using comparison of white and black pixels.
 
 preprocessing.py - Contains functions that preprocess image before plate recognition
+
+
+Licensed under GNU GPLv3
+
+Please message me if you have any questions.
